@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import { FontAwesome,Entypo } from '@expo/vector-icons';
 import { StyleSheet, Text, View, StatusBar,FlatList, TextInput, KeyboardAvoidingView, TouchableOpacity} from 'react-native';
-const alpha = require('alphavantage')({ key: '***REMOVED***' });
+const alpha = require('alphavantage')({ key: 'XSQA123RZ0SBB56X' });
 
 function Stocks(props){
     const [panels, setPanels] = useState([]);
